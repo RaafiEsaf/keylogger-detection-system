@@ -32,20 +32,44 @@ Potential indicators include:
 ## 🏗️ Project Structure
 
 ```text
+🏗️ Project Structure
 keylogger-detection-system/
 │
 ├── src/
+│   ├── __init__.py
 │   ├── detector.py
-│   ├── behavioral_analysis.py
 │   ├── process_monitor.py
+│   ├── behavioral_analysis.py
+│   ├── statistical_analysis.py
 │   └── report_generator.py
 │
 ├── tests/
-│   └── test_detector.py
+│   ├── __init__.py
+│   ├── test_detector.py
+│   ├── test_behavioral_analysis.py
+│   └── test_statistics.py
+│
+├── config/
+│   └── config.json
+│
+├── data/
+│   └── sample/
+│       └── README.md
+│
+├── reports/
+│   └── README.md
 │
 ├── screenshots/
-│   └── detection-result.png
+│   ├── detection-result.png
+│   └── report-example.png
+│
+├── docs/
+│   ├── architecture.md
+│   ├── methodology.md
+│   └── testing.md
 │
 ├── README.md
 ├── requirements.txt
-└── .gitignore
+├── .gitignore
+├── LICENSE
+└── CONTRIBUTING.md
