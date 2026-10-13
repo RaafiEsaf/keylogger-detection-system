@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated reports
+reports/detection-report-*.json
+
+# Environment and editor files
+.env
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db

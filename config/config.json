@@ -1,0 +1,19 @@
+{
+    "project_name": "Keylogger Detection System",
+    "mode": "simulation",
+    "risk_thresholds": {
+        "low": 34,
+        "medium": 69,
+        "high": 70
+    },
+    "detection_weights": {
+        "suspicious_process": 40,
+        "unexpected_persistence": 30,
+        "unusual_resource_usage": 20,
+        "suspicious_network_activity": 25
+    },
+    "logging": {
+        "enabled": true,
+        "report_format": "json"
+    }
+}
